@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100dvh;
+  background-color: #a46fc2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.image {
+  height: 90%;
+  background-image: url("./images/home.jpg");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  transition: 0.5s;
+}
+
+.tabs {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tab {
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.9em;
+  /* margin-block: 5px; */
+}
+
+.active {
+  color: blueviolet;
+}
